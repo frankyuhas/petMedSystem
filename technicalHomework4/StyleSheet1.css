@@ -1,0 +1,15 @@
+﻿body {
+}
+#carouselImg {
+    max-width: 300px;
+}
+
+#mainContent {
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#header {
+    width: 40%;
+}
