@@ -13,3 +13,19 @@
 .col-sm{
     text-align: center;
 }
+
+#docContent{
+    padding: 5%;
+    text-anchor: middle;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/*.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove 
+    letter-spacing: -.05rem;
+}*/

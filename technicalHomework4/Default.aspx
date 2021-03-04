@@ -16,9 +16,43 @@
               <img src="images/vet.jpg" class="d-block w-50 mx-auto" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="images/vet3.jpg" class="d-block w-50 mx-auto" alt="...">
             </div>
           </div>
         </div>
+        <div class="container marketing">
    </div>
+        <br />
+        <br />
+        <br />
+
+       <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <img src="images/doc1.jpg" class="img-thumbnail" alt="Doctor 1">
+                <p class="lead">
+                  Learn more about our team of Doctors, specially trained to treat your best friends.
+                </p>
+                <a class="btn btn-success" href="Docs.aspx" role="button">Doctors</a>
+            </div>
+            <div class="col-sm">
+              <img src="images/dogHome.jpg" class="img-thumbnail" alt="Doctor 1">
+                <p class="lead">
+                  Learn more about how to take care of your dogs.
+                </p>
+                <a class="btn btn-success" href="PageTwo.aspx" role="button">Dogs</a>
+            </div>
+            <div class="col-sm">
+              <img src="images/catHome.jpeg" class="img-thumbnail" alt="Doctor 1">
+                <p class="lead">
+                  Learn more about how to take care of your cats.
+                </p>
+                <a class="btn btn-success" href="Cats.aspx" role="button">Cats</a>
+            </div>
+          </div>
+       </div>
+        <br />
+        <br />
+        <br />
+
 </asp:Content>
