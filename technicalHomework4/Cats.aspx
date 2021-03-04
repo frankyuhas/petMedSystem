@@ -1,60 +1,61 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="PageTwo.aspx.cs" Inherits="technicalHomework4.PageTwo" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Cats.aspx.cs" Inherits="technicalHomework4.Cats" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="mainContent" style="padding: 5%;">
+     <div id="mainContent" style="padding: 5%;">
         <div class="container-lg mx-auto"">
             <div class="row">
             <div class="col-sm">
               <div class="card mx-auto" style="width: 18rem;">
-                  <img src="images/pitbull.jpg" class="card-img-top" alt="...">
+                  <img src="images/cat1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Services Available</h5>
-                    <p class="card-text">We offer all vaccinations for dogs, along with other pet health services.</p>
+                    <p class="card-text">We offer all vaccinations for cats, along with other pet health services.</p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Bordetella Shots</li>
-                    <li class="list-group-item">Deworming</li>
-                    <li class="list-group-item">Tick removal</li>
+                    <li class="list-group-item">Feline Viral Rhinotracheitis</li>
+                    <li class="list-group-item">Calicivirus</li>
+                    <li class="list-group-item">Panleukopenia</li>
                   </ul>
                   <div class="card-body">
-                    <a href="https://en.wikipedia.org/wiki/Vaccination_of_dogs" class="card-link">Dog Vaccinations</a>
+                    <a href="https://www.americanhumane.org/fact-sheet/vaccinating-your-pet/" class="card-link">Cat Vaccinations</a>
                     
                   </div>
                </div>
             </div>
             <div class="col-sm">
              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="images/doggo.jpg" class="card-img-top" alt="...">
+                  <img src="images/cat2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Foods to Avoid</h5>
                     <p class="card-text">Don't give these to your furry friends, unless you're trying to kill them you sicko.</p>
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">Chocolate</li>
-                    <li class="list-group-item">Cinnamon</li>
-                    <li class="list-group-item">Ice Cream</li>
+                    <li class="list-group-item">Raisins</li>
+                    <li class="list-group-item">Onion</li>
                   </ul>
                   <div class="card-body">
-                    <a href="https://yourdogadvisor.com/foods-dogs-cant-eat/" class="card-link">More foods to avoid</a>
+                    <a href="https://pets.webmd.com/cats/ss/slideshow-foods-your-cat-should-never-eat" class="card-link">More foods to avoid</a>
                     
                   </div>
                </div>
             </div>
             <div class="col-sm">
                 <div class="card mx-auto" style="width: 18rem;">
-                  <img src="images/golden.jpg" class="card-img-top" alt="...">
+                  <img src="images/cat3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Dog Illnesses</h5>
-                    <p class="card-text">We provide informationa and care for all common dog health concerns.common</p>
+                    <h5 class="card-title">Cats can suffer from many health issues</h5>
+                    <p class="card-text">We provide informationa and care for all common cat health concerns.</p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Canine distemper</li>
-                    <li class="list-group-item">Canine parvovirus</li>
-                    <li class="list-group-item">Heartworms</li>
+                    <li class="list-group-item">Vomiting</li>
+                    <li class="list-group-item">Feline Lower Urinary Tract Diseases</li>
+                    <li class="list-group-item">Fleas</li>
                   </ul>
                   <div class="card-body">
-                    <a href="https://www.avma.org/resources-tools/pet-owners/petcare/disease-risks-dogs-social-settings" class="card-link">Dog illnesses</a>
+                    <a href="https://pets.webmd.com/cats/6-most-common-cat-health-problems#1" class="card-link">Cat Illnesses</a>
+                    
                   </div>
                </div>
             </div>
